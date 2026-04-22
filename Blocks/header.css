@@ -1,0 +1,22 @@
+.header {
+  text-align: center;
+  padding: 40px 16px;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  margin-top: 32px;
+}
+
+/* Ajuste para Tablet/Desktop */
+@media screen and (min-width: 768px) {
+  .header-title {
+    font-size: 4rem;
+  }
+}
