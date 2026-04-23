@@ -1,0 +1,64 @@
+.content {
+  margin-bottom: 64px;
+}
+
+.content__heading {
+  margin: 0 0 32px;
+  font-size: 2rem;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.content__quote {
+  margin: 0 0 32px;
+}
+
+.content__quote-text {
+  margin: 0 0 16px;
+  font-size: 1.5rem;
+  line-height: 1.42;
+  font-weight: 400;
+}
+
+.content__quote-author {
+  display: block;
+  margin: 0;
+  text-align: right;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 1.42;
+  font-weight: 400;
+}
+
+.content__paragraph {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.63;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .content__heading {
+    max-width: 680px;
+    margin-bottom: 40px;
+    font-size: 2.81rem;
+    line-height: 1.09;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content__heading {
+    max-width: 830px;
+    margin-bottom: 40px;
+    font-size: 3.38rem;
+    line-height: 1.07;
+  }
+
+  .content__quote {
+    max-width: 738px;
+  }
+
+  .content__paragraph {
+    max-width: 722px;
+  }
+}

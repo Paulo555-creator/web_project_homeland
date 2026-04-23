@@ -1,46 +1,28 @@
-# Projeto Homeland —
+# Homeland
 
-Landing page do projeto **Homeland**, com foco em apresentar uma galeria com histórias e imagens de pessoas de diferentes regiões do mundo.
+## 1) Nome do projeto
 
-## 📌 Objetivo
+Homeland — galeria responsiva com histórias e imagens de pessoas de diferentes regiões do mundo.
 
-Construir uma página responsiva e acessível, adaptada para os principais tamanhos de tela:
-- **Smartphone** (mobile)
-- **Tablet**
-- **Desktop**
+## 2) Descrição do projeto e funcionalidade
 
-## 🧱 Estrutura do projeto
+Este projeto apresenta uma landing page com foco em conteúdo editorial, incluindo:
 
-- `index.html` — estrutura principal da página.
-- `Pages/styles.css` — arquivo agregador de estilos.
-- `Blocks/page.css` — estilos globais, tipografia, layout e breakpoints responsivos.
-- `Blocks/header.css` — estilos do cabeçalho e espaçamentos da seção inicial.
-- `Blocks/footer.css` — estilos do rodapé.
-- `vendor/normalize.css` — normalização padrão entre navegadores.
+- cabeçalho com identidade visual;
+- seção hero com título, subtítulo e imagem principal;
+- conteúdo textual com citação e descrição;
+- rodapé.
 
-## 🎨 Tecnologias utilizadas
+A página foi construída para manter o layout consistente em mobile, tablet e desktop.
 
-- HTML5
-- CSS3
-- Google Fonts (Inter)
+## 3) Tecnologias e técnicas utilizadas
 
-## 📱 Responsividade implementada
+- **HTML5 semântico** (`header`, `main`, `section`, `footer`, títulos e parágrafos apropriados);
+- **CSS3** com metodologia **BEM Flat**;
+- organização de estilos por blocos em arquivos separados no diretório `blocks`;
+- estratégia **mobile-first** com media queries para breakpoints principais;
+- uso da fonte **Inter** com fallback de fontes do sistema.
 
-Foram definidos estilos com abordagem mobile-first e breakpoints para:
-- `@media (min-width: 768px)` para **tablet**
-- `@media (min-width: 1024px)` para **desktop**
+## 4) Link para o GitHub Pages
 
-Ajustes realizados:
-- espaçamentos laterais e verticais por dispositivo;
-- escala tipográfica para títulos e textos;
-- largura máxima de conteúdo para melhor legibilidade em telas maiores;
-- imagem principal fluida (`width: 100%` e `height: auto`).
-
-## 🚀 Como executar localmente
-
-1. Faça o clone do repositório.
-2. Abra o arquivo `index.html` no navegador.
-
-## 👨‍💻 Autor
-
-Paulo B
+- https://paulo-b.github.io/web_project_homeland/

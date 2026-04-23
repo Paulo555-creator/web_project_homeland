@@ -1,0 +1,11 @@
+.footer {
+  margin-top: auto;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  opacity: 0.8;
+}
+
+.footer__copyright {
+  margin: 0;
+}

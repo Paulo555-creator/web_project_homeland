@@ -1,0 +1,49 @@
+.top-bar,
+.hero,
+.content,
+.footer {
+  width: 100%;
+  max-width: 288px;
+}
+
+.top-bar {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.top-bar__logo {
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin: 0 auto 18px;
+}
+
+.top-bar__text {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+@media screen and (min-width: 768px) {
+  .top-bar,
+  .hero,
+  .content,
+  .footer {
+    max-width: 720px;
+  }
+
+  .top-bar {
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .top-bar,
+  .hero,
+  .content,
+  .footer {
+    max-width: 984px;
+  }
+}
