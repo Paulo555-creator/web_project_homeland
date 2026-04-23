@@ -1,0 +1,8 @@
+/* 1. Reset e Normalização */
+@import url('../vendor/normalize.css');
+
+/* 2. Fontes */
+@import url('../vendor/fonts.css');
+
+/* 3. Variáveis Globais e Estrutura da Página */
+@import url('../Blocks/page.css');

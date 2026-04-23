@@ -1,5 +1,0 @@
-/* 1. Reset e Normalização (Sempre o primeiro) */
-@import url('../vendor/normalize.css');
-
-/* 2. Variáveis Globais e Estrutura da Página */
-@import url('../Blocks/page.css');
