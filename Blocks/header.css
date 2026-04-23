@@ -1,22 +1,23 @@
-.header {
-  text-align: center;
-  padding: 40px 16px;
+.top-bar {
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 
-.header-title {
-  font-size: 2.5rem;
-  margin-bottom: 16px;
+.hero {
+  text-align: left;
 }
 
-.header-image {
-  width: 100%;
-  height: auto;
-  margin-top: 32px;
-}
-
-/* Ajuste para Tablet/Desktop */
 @media screen and (min-width: 768px) {
-  .header-title {
-    font-size: 4rem;
+  .top-bar {
+    padding: 44px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .top-bar {
+    padding: 56px 0;
   }
 }
